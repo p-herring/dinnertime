@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="/Users/pete/programming/dinnertime/Recipes/recipesmain.css" >
+    <title>Recipes</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <h1><a href="/Users/pete/programming/dinnertime/main/index.html"></a>Dinner Time</a></h1>
+                <li><a href="/Users/pete/programming/dinnertime/main/index.html">Home</a></li>
+                <li><a href="/Users/pete/programming/dinnertime/proteinchooser/protein.html">Protein Chooser</a></li>
+                <li><a href="#">Sides</a></li>
+                <li><a href="#">Full Meals</a></li>
+                <li><a href="#">Cheeky Desserts</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>    
+        <h1>Recipes</h1>
+        <p>Let us do the thinking for you! If you know what kind of meal your looking for, use the handy drop down menu to help filter.</p>
+        <p>Alternatively, take a breather and scroll through our lovely lists of recipes and see what jumps out at you!</p>
+        
+
+    <label for="proteinFilter">Filter by Protein:</label>
+    <select id="proteinFilter" onchange="filterRecipes()">
+        <option value="all">All Proteins</option>
+        <option value="chicken">Chicken</option>
+        <option value="beef">Beef</option>
+        <option value="fish">Fish</option>
+        <!-- Add more protein options as needed -->
+    </select>
+
+    <div id="recipesContainer">
+        <!-- Your recipe items go here -->
+        <!-- Each recipe item should have a data-protein attribute with the corresponding protein value -->
+        <!-- Example: <div class="recipe" data-protein="chicken">Chicken Curry Recipe</div> -->
+        <div id="chickenCurry" class="recipe" data-protein="chicken">
+            Chicken Curry Recipe
+        </div>
+   
+   
+    </div>
+
+    <script src="recipesmain.js"></script>
+
+
+    </main>
+
+    <hr>
+<footer>
+    <h3>Quick Links</h3>
+    <nav>
+        <ul class="quicklinks">
+            <li><a href='/Users/pete/programming/dinnertime/main/index.html'><img src="/Users/pete/programming/dinnertime/assets/homeicon.png" alt="default image placeholder"> </a>
+                <figcaption>Home</figcaption> </li>
+            <li><a href="/Users/pete/programming/dinnertime/proteinchooser/protein.html"><img src="/Users/pete/programming/dinnertime/assets/protein.jpeg" alt="protein picture"> </a>
+                <figcaption>Protein Chooser</figcaption> </li>
+            <li><a href='#'><img src="https://t3.ftcdn.net/jpg/02/48/42/64/240_F_248426448_NVKLywWqArG2ADUxDq6QprtIzsF82dMF.jpg" alt="default image placeholder"> </a>
+                            <figcaption>Sides</figcaption>
+            </li>
+            <li><a href='#'><img src="https://t3.ftcdn.net/jpg/02/48/42/64/240_F_248426448_NVKLywWqArG2ADUxDq6QprtIzsF82dMF.jpg" alt="default image placeholder"> </a> 
+                            <figcaption>Full Meals</figcaption>
+            </li>
+            <li><a href='#'><img src="https://t3.ftcdn.net/jpg/02/48/42/64/240_F_248426448_NVKLywWqArG2ADUxDq6QprtIzsF82dMF.jpg" alt="default image placeholder"> </a> 
+                            <figcaption>Cheeky Desserts</figcaption>
+            </li>
+        </ul>
+    </nav>
+</footer>
+    
+</body>
+</html>

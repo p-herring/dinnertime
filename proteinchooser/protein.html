@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="/Users/pete/programming/dinnertime/proteinchooser/protein.css" >
+    <title>Protein Selector</title>
+    <script src="protein.js"></script>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <h1><a href="/Users/pete/programming/dinnertime/index.html"></a>Dinner Time</a></h1>
+                <li><a href="/Users/pete/programming/dinnertime/main/index.html">Home</a></li>
+                <li><a href="/Users/pete/programming/dinnertime/Recipes/recipesmain.html">Recipes</a></li>
+                <li><a href="#">Sides</a></li>
+                <li><a href="#">Full Meals</a></li>
+                <li><a href="#">Cheeky Desserts</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+    <h1>Random Protein Generator</h1>
+    <p class="tipstochoose">When entering your options, enter all options as a single entry like: "Fish, Chicken, Beef" etc</p>
+    <label for="proteinOptions">Enter protein options (comma-separated):</label>
+    <br><br>
+    <input type="text" id="proteinOptions" placeholder="e.g., Chicken, Beef, Fish">
+
+    <button onclick="generateUserProtein()">Generate Your Protein</button>
+    <h4>OR</h4>
+    <button onclick="generateRandomPredefinedProtein()">Let Us Choose for You</button>
+    <br><br>
+    <div id="result"></div>
+
+    <br><br><br> <br>
+
+    <div id="info"></div>
+    <br> <br><br> <br>
+
+</main>
+<hr>
+<footer>
+    <h3>Quick Links</h3>
+    <nav>
+        <ul class="quicklinks">
+            <li><a href='/Users/pete/programming/dinnertime/main/index.html'><img src="/Users/pete/programming/dinnertime/assets/homeicon.png" alt="default image placeholder"> </a>
+                            <figcaption>Home</figcaption> 
+                </li>
+            <li><a href='/Users/pete/programming/dinnertime/Recipes/recipesmain.html'><img src="/Users/pete/programming/dinnertime/assets/recipes.jpeg" alt="desserts picture"> </a> 
+                                <figcaption>Recipes</figcaption>
+                </li>
+            <li><a href='#'><img src="/Users/pete/programming/dinnertime/assets/sidedishes.jpeg"> </a>
+                            <figcaption>Sides</figcaption>
+                </li>
+            <li><a href='#'><img src="/Users/pete/programming/dinnertime/assets/meals.jpeg" alt="default image placeholder"> </a> 
+                            <figcaption>Full Meals</figcaption>
+                </li>
+            <li><a href='#'><img src="/Users/pete/programming/dinnertime/assets/desserts.jpeg" alt="default image placeholder"> </a> 
+                            <figcaption>Cheeky Desserts</figcaption>
+                </li>
+        </ul>
+    </nav>
+</footer>
+    
+</body>
+</html>
