@@ -64,7 +64,7 @@ function renderSimplifiedRecipes(proteinFilter) {
 
 function navigateToRecipeDetails(selectedProtein) {
     sessionStorage.setItem("selectedProtein", selectedProtein);
-    window.location.href = "recipe_details.html";
+    window.location.href = "recipesdetails/recipe_details.html";
 }
 
 function filterRecipes() {
