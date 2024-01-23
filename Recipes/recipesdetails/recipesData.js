@@ -27,7 +27,7 @@ const recipesData = [
             carbs: 10,
             fat: 22
         },
-        image: "../assets/chickencurry.jpeg"
+        image: "../../assets/chickencurry.jpeg"
     },
     {
         name: "Beef Stir Fry",
