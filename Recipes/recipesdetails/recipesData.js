@@ -1,4 +1,3 @@
-// recipesData.js
 
 const recipesData = [
     {
@@ -28,7 +27,41 @@ const recipesData = [
             carbs: 10,
             fat: 22
         },
-        image: "../assets/chickencurry.jpeg" // Add the actual image filename or URL
+        image: "../assets/chickencurry.jpeg"
+    },
+    {
+        name: "Beef Stir Fry",
+        protein: "beef",
+        ingredients: [
+            "500g beef sirloin, thinly sliced",
+            "1 bell pepper, thinly sliced",
+            "1 broccoli crown, cut into florets",
+            "1 carrot, julienned",
+            "3 cloves garlic, minced",
+            "1 tablespoon soy sauce",
+            "1 tablespoon oyster sauce",
+            "1 teaspoon sesame oil",
+            "2 tablespoons vegetable oil",
+            "Salt and pepper to taste",
+            "Cooked rice for serving"
+        ],
+        instructions: [
+            "In a wok or large skillet, heat vegetable oil over high heat.",
+            "Add thinly sliced beef and stir-fry until browned. Remove from the wok and set aside.",
+            "In the same wok, add more oil if needed. Stir-fry garlic until fragrant.",
+            "Add bell pepper, broccoli, and carrot. Stir-fry until vegetables are crisp-tender.",
+            "Return the cooked beef to the wok. Add soy sauce, oyster sauce, and sesame oil. Stir well to combine.",
+            "Season with salt and pepper to taste. Stir-fry for an additional 2-3 minutes.",
+            "Serve the beef stir fry over cooked rice.",
+            "Garnish with sesame seeds or green onions if desired."
+        ],
+        macros: {
+            calories: 400,
+            protein: 30,
+            carbs: 15,
+            fat: 20
+        },
+        image: "" // Add the actual image filename or URL
     },
     // Add more recipes with similar structure
 ];
