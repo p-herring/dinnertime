@@ -1,4 +1,4 @@
-import recipesData from '../Recipes/recipesdetails/recipesData.js';
+import recipesData from 'recipesdetails/recipesData.js';
 
 
 function renderSimplifiedRecipes(proteinFilter) {
