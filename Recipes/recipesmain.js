@@ -1,4 +1,4 @@
-import recipesData from 'recipesdetails/recipesData.js';
+import recipesData from './recipesData.js';
 
 function displayRecipeDetails(recipe) {
  document.getElementById('recipeName').innerText = recipe.name;
